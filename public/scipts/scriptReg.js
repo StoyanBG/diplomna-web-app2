@@ -9,7 +9,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
       return;
     }
 
-    fetch('https://diplomna-web-app2.vercel.app/register', {
+    fetch('/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
