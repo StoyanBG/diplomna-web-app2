@@ -2,7 +2,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     event.preventDefault();
     const formData = new FormData(this);
 
-    fetch('https://diplomna-web-app2-nairk21ng-stoyanbgs-projects.vercel.app/login', {
+    fetch('https://diplomna-web-app2-git-master-stoyanbgs-projects.vercel.app//login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
